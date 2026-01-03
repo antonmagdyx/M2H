@@ -60,17 +60,13 @@ body {
   .icon{width:22px;height:22px;flex:0 0 22px;fill:#fff; display: flex; align-items: center; justify-content: center;}
   .label{flex:1;text-align:center}
 
-  /* تنسيق أيقونة إنستا باي لتعمل وتظهر باللون الأبيض */
-  .instapay-icon-img {
-    width: 20px;
-    height: 20px;
-    filter: brightness(0) invert(1);
-    object-fit: contain;
-  }
 
   .link.whatsapp .icon { fill: #ffffff; transition: fill 0.3s ease; }
   .link.whatsapp:hover .icon { fill: #25D366; }
 
+  .link.tiktok .icon {  fill: #ffffff;   transition: fill 0.3s ease; }
+  .link.tiktok:hover .icon {  fill: #000000; }
+  
   footer.footer{margin-top:28px;color:rgba(255,255,255,0.95);font-size:9px}
   footer.footer a{color:inherit;text-decoration:underline}
 
@@ -116,11 +112,15 @@ body {
     <p class="bio">Limousine & Private Driver</p>
 
     <nav class="links">
-      <a class="link" href="https://www.facebook.com/" target="_blank">
+      <a class="link" href="https://www.facebook.com/M2HLimousine" target="_blank">
         <svg class="icon" viewBox="0 0 24 24"><path d="M22 12.07C22 6.48 17.52 2 11.93 2 6.34 2 2 6.48 2 12.07c0 5 3.66 9.13 8.44 9.92v-7.03H8.07V12.07h2.37V9.88c0-2.34 1.4-3.63 3.52-3.63.99 0 2.02.18 2.02.18v2.22h-1.14c-1.12 0-1.46.69-1.46 1.4v1.67h2.49l-.4 2.89h-2.09v7.03C18.34 21.2 22 17.07 22 12.07z" /></svg>
         <span class="label">Facebook</span>
       </a>
 
+      <a class="link tiktok" href="https://www.tiktok.com/@mohamed.abo.adam38" target="_blank">
+        <svg class="icon" viewBox="0 0 256 256"><path d="M236.8 81.3a56.7 56.7 0 0 1-33-10.6 56.8 56.8 0 0 1-23-45.9h-28.2v132.9a32.5 32.5 0 1 1-32.5-32.5 31.8 31.8 0 0 1 6.6.7v-29a62.8 62.8 0 0 0-6.6-.3 61.5 61.5 0 1 0 61.5 61.5v-64.7a85 85 0 0 0 50.7 16.5V81.3z"/></svg>
+        <span class="label">TikTok</span>
+      </a>
 
 	   <a class="link" href="https://ipn.eg/S/aalnazr22/instapay/35H" target="_blank">
         <div class="icon">
@@ -142,6 +142,13 @@ body {
 		  <span class="label">WhatsApp</span>
 		</a>
 
+      <a class="link phone" href="tel:+201018331999">
+        <div class="icon">
+          <i class="fas fa-phone"></i>
+        </div>
+        <span class="label">Call Us</span>
+      </a>
+	  
       <a class="link phone" href="tel:+201011351112">
         <div class="icon">
           <i class="fas fa-phone"></i>
@@ -158,10 +165,12 @@ body {
     </nav>
 
     <div class="social-icons">
-      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.facebook.com/M2HLimousine" target="_blank"><i class="fab fa-facebook-f"></i></a>
+	  <a href="https://www.tiktok.com/@mohamed.abo.adam38" target="_blank"><i class="fab fa-tiktok"></i></a>
       <a href="https://ipn.eg/S/aalnazr22/instapay/35Hbjf" target="_blank"><i class="fas fa-dollar-sign"></i></a>
-      <a href="https://wa.me/+201011351112" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://wa.me/+201119960609" target="_blank"><i class="fab fa-whatsapp"></i></a>
 	  <a href="https://wa.me/+201018331999" target="_blank"><i class="fab fa-whatsapp"></i></a>
+	  <a href="tel:+201119960609" class="phone" title="Call Us"> <i class="fas fa-phone"></i> </a>
 	  <a href="tel:+201011351112" class="phone" title="Call Us"> <i class="fas fa-phone"></i> </a>
 	  <a href="tel:+201018331999" class="phone" title="Call Us"> <i class="fas fa-phone"></i> </a>
 
